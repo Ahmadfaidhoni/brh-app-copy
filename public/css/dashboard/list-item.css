@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.content .rating{
+    position: absolute;
+    bottom: 20px;
+    background-color: #FED261;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.category{
+    padding: 5px 25px;
+    background-color: #FED261;
+    border-radius: 10px;
+}
+
+.card-list {
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px 7px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: 0.3s;
+}
+.card-list:hover{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-list img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    min-height: 95px; 
+    max-height: 150px;
+}
+
+.card-list .btn-dropdown {
+    height: 100%;
+    border-radius: 30px !important;
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 15px;
+    float: right;
+    max-height: 200px;
+}
+
+.card-list .list-dropdown {
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+    width: 100px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FED261;
+    border-radius: 10px;
+    z-index: 2;
+    display: none;
+}
+
+.card-list .list-dropdown .btn {
+    width: 100%;
+    margin: 0px;
+    border-radius: 0;
+    border: none;
+    color: black;
+}
+
+.card-list .list-dropdown .btn:hover {
+    background-color: #f0be40;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f0be40;
+    border: 2px solid #f0be40;
+}
+
+.nav-tabs .nav-link {
+    color: black;
+    border: 0;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .card-list>div{
+        margin-bottom: 20px;
+    }
+    .content .rating{
+        position: absolute;
+        width: 80px;
+        text-align: center;
+        bottom: 30px;
+    }
+    .card-list img {
+        max-height: 250px;
+    }
+}

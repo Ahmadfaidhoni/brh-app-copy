@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+#hero {
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    min-width: 612px;
+    min-height: 565px;
+
+}
+
+.label_price {
+    background-color: aqua;
+}
+
+.hero-tagline h1 {
+    font-size: 58px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-tagline p {
+    font-size: 20px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card-img-populer {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.label-populer {
+    background-color: #0096C7;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.rating-populer {
+    background-color: #0096C7;
+    border-radius: 10px;
+    padding: 3px 10px 3px 10px;
+}
+
+.name-populer {
+    text-align: left;
+}
+
+.price-hotel {
+    color: red;
+    font-weight: 500;
+}
